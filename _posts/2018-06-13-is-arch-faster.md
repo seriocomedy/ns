@@ -1,0 +1,6 @@
+---
+title: Does using Arch Linux or Gentoo make your computer go faster?
+date: 2018-06-13
+---
+
+Many people like to claim that using Arch or Gentoo Linux will make your computer go faster. However, this is simply not true. All a Linux distribution is is a set of optional programs, a package manager (apt for Debian/Ubuntu and pacman for Arch) and the Linux kernel. The kernel is usually the same with some slight changes that should not affect performance. Most of the applications in Arch Linux and Ubuntu Minimal are the same (Coreutils, Emacs, Vim, Xorg, etc.) The only real difference is the package manager. Currently, the Ubuntu/Debian package repository has the most packages of any official repository. People like to claim that Ubuntu is bulky which is not true. What they are thinking about is Ubuntu Desktop and not Ubuntu Minimal which can fit in 50MB (Compared to the 600MB Arch Linux Image). An application ran in Arch should run as fast as if it was ran in Ubuntu as long as the kernel is the same and you are using the same application. There is no truth to the myth that "advanced" Linux Distros (edgy /g/eek Linux Distros such as Arch Linux and Gentoo) are faster than "noob" Linux Distros (Ubuntu Minimal or Debian).
