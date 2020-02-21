@@ -5,6 +5,8 @@ categories:
 - announcements
 ---
 
+**NOTICE: this post is now outdated**
+
 Dorper has recently moved to [GitHub Pages](https://pages.github.com) for multiple reasons.
 
 ## Free
