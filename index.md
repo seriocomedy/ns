@@ -6,11 +6,11 @@ permalink: /
 # Welcome to Dorper!
 
 ## Software
-- (xtos)[XtOS]
+- [XtOS](xtos)
 
 ## Services
-- (litetube)[LiteTube]
-- (dch)[Dch]
-- (forum)[Forum]
+- [LiteTube](litetube)
+- [Dch](dch)
+- [Forum](forum)
 
 ## News
