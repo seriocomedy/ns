@@ -1,6 +1,5 @@
 ---
 title: Dorper
-layout: home
 permalink: /
 ---
 # Welcome to Dorper!
@@ -14,3 +13,4 @@ permalink: /
 - [Forum](forum)
 
 ## News
+{% include postlist.html %}
