@@ -1,5 +1,5 @@
 ---
-title: "VIDEO: OSDev Wiki Issues
+title: "VIDEO: OSDev Wiki Issues"
 date: 2018-08-07
 ---
 # VIDEO: OSDEV Wiki Issues
