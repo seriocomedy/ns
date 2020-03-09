@@ -2,7 +2,6 @@
 title: Net Neutrality Protests Are Getting Annoying
 date: 2018-05-14
 ---
-<h1>Net Neutrality Protests Are Getting Annoying</h1>
 <p>These online net-neutrality "protests" are getting out of hand and are becoming quite spammy. The most recent "protest" by FightForOurFuture involves tweeting out a large text walls with as many new lines in between words as possible. This makes each "protest tweet" over 100vh in size. Now, imagine your news feed being flooded with messages telling you to give FightForOurFuture money to "fight against the evil FCC".</p>
 
 <img src="tweet.png" alt="Tweet">
