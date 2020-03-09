@@ -49,6 +49,7 @@ body {
 
 .site-footer {
 	border: 0;
+	padding: 0.5em;
 	border-bottom-left-radius: 8px;
 	border-bottom-right-radius: 8px;
 	background: linear-gradient(to top, #7abcff 0%,#60abf8 44%,#4096ee 100%);
