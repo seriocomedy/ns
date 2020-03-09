@@ -4,15 +4,20 @@
 
 body {
 	background: #eef;
-	font-family: sans-serif;
+	font-family: serif;
 	font-size: 12pt;
 	margin: 32px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: sans-serif;
 }
 
 .site-wrapper {
 }
 
 .site-header {
+	font-family: sans-serif;
 	border: 0;
 	border-top-left-radius: 8px;
 	border-top-right-radius: 8px;
@@ -32,11 +37,13 @@ body {
 }
 
 .site-content {
+	font-family: serif;
 	background: #fff;
 	padding: 1em;
 }
 
 .site-navigation {
+	font-family: sans-serif;
 	background: darkblue;
 }
 
@@ -49,6 +56,7 @@ body {
 }
 
 .site-footer {
+	font-family: sans-serif;
 	border: 0;
 	padding: 0.5em;
 	border-bottom-left-radius: 8px;
