@@ -36,6 +36,13 @@ body {
 	padding: 1em;
 }
 
+.site-navigation {
+	padding: 0.25em;
+	background: darkblue;
+	color: #fff;
+	font-weight: bold;
+}
+
 .site-footer {
 	border: 0;
 	border-top-left-radius: 8px;
