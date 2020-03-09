@@ -2,7 +2,6 @@
 title: Instant Messaging Services
 date: 2018-07-01
 ---
-<h1>Instant Messaging Services</h1>
 <p>There's a lot of instant messaging services, and they've served millions of users and have marked their purpose. Some of them have been killed off as of now, and some of them still remain online. This is an article on some popular IM's and where they stand as of now.</p>
 <p>AIM went into service in 1997 and was closed in 2017. The project AIM Phoenix was set to be a private server to put AIM back into operations. With it's recent news attention, the server could risk taking a strike from Verizon/Oath.</p>
 <p>MSN Messenger was introduced in 1999 and was closed in 2014. Like AIM, the project Escargot MSN is set to bring MSN Messenger back to operations with it's own private server, and is currently pushing support to WLM 14 (2009).</p>
