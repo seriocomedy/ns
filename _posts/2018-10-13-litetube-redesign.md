@@ -2,7 +2,6 @@
 title: LiteTube Redesign
 date: 2018-10-13
 ---
-<h1>LiteTube Redesign</h1>
 <img src="litetube.png" alt="LiteTube Screenshot">
 <p>
 I have redesigned <a href="https://yt.dorper.me">LiteTube</a> to be more modern, responsive and usable. I replaced the custom CSS with UIKit 3 and have also cut down on the number of client-side dependencies. VideoJS has been completely removed because it kept breaking.
