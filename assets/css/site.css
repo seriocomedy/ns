@@ -9,6 +9,7 @@ body {
 }
 
 .site-wrapper {
+	margin: 2em;
 	border: 14x solid transparent;
 	border-radius: 4px;
 }
