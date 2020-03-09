@@ -3,6 +3,7 @@
 }
 
 body {
+	background: #eef;
 	font-family: sans-serif;
 	font-size: 12pt;
 }
@@ -13,4 +14,14 @@ body {
 
 .site-logo {
 	font-size: 3em;
+}
+
+.site-logo a {
+	color: white;
+	text-decoration: none;
+}
+
+.copyright {
+	font-size: small;
+	text-align: center;
 }
