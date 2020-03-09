@@ -8,6 +8,11 @@ body {
 	font-size: 12pt;
 }
 
+.site-wrapper {
+	border: 0 solid transparent;
+	border-radius: 4px;
+}
+
 .site-header {
 	background: linear-gradient(to bottom, #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%);
 }
