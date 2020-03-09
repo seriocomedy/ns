@@ -10,11 +10,12 @@ body {
 }
 
 .site-wrapper {
-	border: 14x solid transparent;
-	border-radius: 4px;
 }
 
 .site-header {
+	border: 0;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
 	background: linear-gradient(to bottom, #7abcff 0%,#60abf8 44%,#4096ee 100%);
 }
 
