@@ -3,6 +3,14 @@
 }
 
 body {
-	font-family: georgia, times, serif;
+	font-family: sans-serif;
 	font-size: 12pt;
+}
+
+.site-header {
+	background: linear-gradient(to bottom, #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%);
+}
+
+.site-logo {
+	font-size: 3em;
 }
