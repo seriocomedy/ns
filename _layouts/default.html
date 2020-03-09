@@ -5,9 +5,30 @@
 		<title>{{ page.title }}</title>
 		<meta name="author" content="Dorper">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="{{ "/assets/css/site.css" | relative_url }}">
 	</head>
 	<body>
-		<h1>Dorper</h1>
-		{{ content }}
+		<a name="top"></a>
+		<div class="site-wrapper">
+			<header class="site-header">
+				<h1 class="site-logo">
+					<a href="{{ "/" | relative_url }}">Dorper</a>
+				</h1>
+				<nav class="site-navigation">
+					<a href="{{ "/" | relative_url }}">Home</a>
+					<a href="{{ "/software" | relative_url }}">Software</a>
+					<a href="{{ "/services" | relative_url }}">Services</a>
+					<a href="{{ "/news" | relative_url }}">News</a>
+					<a href="https://now.dorper.me">DorperNOW</a>
+					<a href="{{ "/about" | relative_url }}">About</a>
+				</nav>
+			</header>
+			<main class="site-content" id="content">
+				{{ content }}
+			</main>
+			<footer class="site-footer">
+				<p class="copyright">Copyright &copy; 2014-2020 Dorper</p>
+			</footer>
+		</div>
 	</body>
 </html>
