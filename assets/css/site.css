@@ -10,9 +10,11 @@ body {
 }
 
 .site-wrapper {
+	background: #fff;
 }
 
 .site-header {
+	padding: 1em;
 	border: 0;
 	border-top-left-radius: 8px;
 	border-top-right-radius: 8px;
@@ -30,7 +32,6 @@ body {
 }
 
 .site-content {
-	background: #fff;
 }
 
 .copyright {
