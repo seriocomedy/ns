@@ -29,6 +29,10 @@ body {
 	text-decoration: none;
 }
 
+.site-content {
+	background: #fff;
+}
+
 .copyright {
 	font-size: small;
 	text-align: center;
