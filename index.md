@@ -2,7 +2,7 @@
 title: Dorper
 permalink: /
 ---
-# Welcome to Dorper!
+<h1 class="page-title">Welcome to Dorper!</h1>
 
 ## Software
 - [XtOS](xtos)
