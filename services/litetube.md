@@ -2,7 +2,21 @@
 title: LiteTube
 ---
 # LiteTube
+[Visit LiteTube](https://yt.dorper.me) &bull; [Changelog](https://yt.dorper.me/changelog.txt)
+
 LiteTube is a lightweight YouTube client.
+
+## Features
+- Video playback, even when YouTube is blocked
+- Video downloading
+- Video searching
+- Playlists with autoplay
+- Channels
+- Channel backgrounds ([example](https://yt.dorper.me/channel.php?c=pewdiepie)).
+- Recommended videos
+- Like, dislike, view and subscriber counts
+- Video resolution selection
+- 0.25x, 0.5x, 1x. 1.25x, 1.5x, and 2x speed options
 
 ## Screenshots
 <div class="screenshots">
