@@ -12,7 +12,7 @@ LiteTube is a lightweight YouTube client.
 - Video searching
 - Playlists with autoplay
 - Channels
-- Channel backgrounds ([example](https://yt.dorper.me/channel.php?c=pewdiepie)).
+- Channel backgrounds ([example](https://yt.dorper.me/channel.php?c=pewdiepie))
 - Recommended videos
 - Like, dislike, view and subscriber counts
 - Video resolution selection
