@@ -6,9 +6,9 @@ LiteTube is a lightweight YouTube client.
 
 ## Screenshots
 <div class="screenshots">
-  <a href="{{"/media/img/litetube/screenshot1.png"|relative_url}}"><img src="{{"/media/img/litetube/screenshot1.png"|relative_url}}"></a>
-  <a href="{{"/media/img/litetube/screenshot2.png"|relative_url}}"><img src="{{"/media/img/litetube/screenshot2.png"|relative_url}}"></a>
-  <a href="{{"/media/img/litetube/screenshot3.png"|relative_url}}"><img src="{{"/media/img/litetube/screenshot3.png"|relative_url}}"></a>
+  <a href="{{"/media/img/litetube/screenshot1.png"|relative_url}}"><img src="{{"/media/img/litetube/screenshot1.png"|relative_url}}" height="400" width="400"></a>
+  <a href="{{"/media/img/litetube/screenshot2.png"|relative_url}}"><img src="{{"/media/img/litetube/screenshot2.png"|relative_url}}" height="400" width="400"></a>
+  <a href="{{"/media/img/litetube/screenshot3.png"|relative_url}}"><img src="{{"/media/img/litetube/screenshot3.png"|relative_url}}" height="400" width="400"></a>
 </div>
 
 <link rel="stylesheet" href="../../assets/css/lightbox.css">
