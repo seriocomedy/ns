@@ -1,3 +1,6 @@
+---
+title: Software
+---
 <h1 class="page-title">Software</h1>
 
 ## Operating Systems
