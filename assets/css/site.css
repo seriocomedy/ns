@@ -17,6 +17,10 @@ li {
 	line-height: 1.5em;
 }
 
+pre {
+	overflow: scroll;
+}
+
 .site-wrapper {
 }
 
