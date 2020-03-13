@@ -10,5 +10,6 @@ title: Services
 - [Dch](dch)
 - [Dorper Forum](forum)
 
-## Calculators
-- [Easter Date Calculator]({{"/tools/easterdate"|relative_url}})
+## Date Finders
+- [Easter Date Calculator]({{"/datefinder/easter"|relative_url}})
+- [Good Friday Date Calculator]({{"/datefinder/goodfriday"|relative_url}})
