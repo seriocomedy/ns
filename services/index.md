@@ -11,5 +11,5 @@ title: Services
 - [Dorper Forum](forum)
 
 ## Date Finders
-- [Easter Date Calculator]({{"/datefinder/easter"|relative_url}})
-- [Good Friday Date Calculator]({{"/datefinder/goodfriday"|relative_url}})
+- [Easter Date Calculator]({{"/tools/datefinder/easter"|relative_url}})
+- [Good Friday Date Calculator]({{"/tools/datefinder/goodfriday"|relative_url}})
