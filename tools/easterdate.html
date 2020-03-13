@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<title>Easter Date Calculator</title>
 		<meta name="author" content="Dorper">
-		<meta name="description" content="Calculate the Date of Easter Sunday for any year from 33AD to 9999AD">
+		<meta name="description" content="Calculate the Date of Easter Sunday for any year from 33AD to 9999AD.">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<style>
 			body {
@@ -123,7 +123,7 @@
 				
 				document.getElementById("day").innerText = day+nth(day);
 				document.getElementById("month").innerText = month==3?"March":"April";
-				document.getElementById("was").innerText = Date.parse(t.value+"-"+month+"-"+day)<Date.now()?"was":"will be";
+				document.getElementById("was").innerText = Date.parse(String(t.value).padStart(4, '0')+"-"+String(month).padStart(2, '0')+"-"+String(day).padStart(2, '0'))<Date.now()?"was":"will be";
 			}
 			
 			var ye = document.getElementById("year");
