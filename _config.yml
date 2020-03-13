@@ -1,2 +1,5 @@
 permalink: /:title/
 footer: 'Copyright &copy; 2014-2020 Dorper'
+url: "https://dorper.me"
+plugins:
+  - jekyll-sitemap
