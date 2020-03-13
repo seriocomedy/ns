@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<title>Easter Date Calculator</title>
 		<meta name="author" content="Dorper">
-		<meta name="description" content="Calculate the Date of Easter Sunday for any year from 33AD to 9999AD.">
+		<meta name="description" content="Calculate the Date of Easter Sunday for any year.">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<style>
 			body {
@@ -102,24 +102,49 @@
 				}
 			}
 			
+			function getEaster(y) // Takes a given year (y) then returns Date object of Easter Sunday
+			{ 
+				/*
+					Easter Date Function for JavaScript implemented by Furgelnod ( https://furgelnod.com )
+					Using algorithm published at The Date of Easter (on aa.usno.navy.mil, Oct 2007) 
+					(https://web.archive.org/web/20071015045929/http://aa.usno.navy.mil/faq/docs/easter.php)
+					The algorithm is credited to J.-M. Oudin (1940) and is reprinted in the 
+					Explanatory Supplement to the Astronomical Almanac, ed. P. K. Seidelmann (1992). 
+					See Chapter 12, "Calendars", by L. E. Doggett.
+				*/
+				try {
+					y = Number( y );
+					if ( y != y ) { 
+						throw new TypeError( "Value must be a number." );
+					}
+					else if ( y > 275760 || y < -271820 ) {
+						throw new RangeError( "Value be between -271820 and 275760 due to technical limitations of Date constructor." );
+					}
+				}
+				catch ( e ) { console.error( e ); }
+			 
+				y = Math.floor( y );
+				var c = Math.floor( y / 100 );
+				var n = y - 19 * Math.floor( y / 19 );
+				var k = Math.floor( ( c - 17 ) / 25 );
+				var i = c - Math.floor( c / 4 ) - Math.floor( ( c - k ) / 3 ) + 19 * n + 15;
+				i = i - 30 * Math.floor( i / 30 );
+				i = i - Math.floor( i / 28 ) * ( 1 - Math.floor( i / 28 ) * Math.floor( 29 / ( i + 1 ) ) * Math.floor( ( 21 - n ) / 11 ) );
+				var j = y + Math.floor( y / 4 ) + i + 2 - c + Math.floor( c / 4 );
+				j = j - 7 * Math.floor( j / 7 );
+				var l = i - j;
+				var m = 3 + Math.floor( ( l + 40 ) / 44 );
+				var d = l + 28 - 31 * Math.floor( m / 4 );
+				return [m,d];
+			} // -- easterDate
+
 			function update(t) {
 				if (t.value.length > t.maxLength)
 					t.value = t.value.slice(0, t.maxLength);
 				
-				var a = t.value % 19;
-				var b = Math.floor(t.value/100);
-				var c = t.value % 100;
-				var d = Math.floor(b/4);
-				var e = b % 4;
-				var f = Math.floor((b+8)/25);
-				var g = Math.floor((b-f+1)/3);
-				var h = (19 * a + b - d - g + 15) % 30
-				var i = Math.floor(c/4);
-				var k = c % 4;
-				var L = (32 + 2 * e + 2 * i - h - k) % 7;
-				var m = Math.floor((a + 11 * h + 22 * L) / 451);
-				var month = Math.floor((h + L - 7 * m + 114) / 31);
-				var day = ((h + L - 7 * m + 114) % 31) + 1;
+				var e = getEaster(t.value);
+				var month = e[0];
+				var day = e[1];
 				
 				document.getElementById("day").innerText = day+nth(day);
 				document.getElementById("month").innerText = month==3?"March":"April";
