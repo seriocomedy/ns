@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+#topbar {
+  display: flex;
+  font-size: 18pt;
+  padding: 4px 16px;
+  background: black;
+}
+
+#topbar .col1 {
+  flex: 1;
+}
+
+#topbar .col2 {
+  flex: 0.5;
+}
+
+#topbar .col3 {
+  flex: 0.3;
+}
+
+#topbar .col4 {
+  flex: 0.25;
+}
+
+#title {
+  color: white;
+  text-align: center;
+  display: block;
+}
+
+#dorperlogo {
+  float: left;
+  color: dodgerblue;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#donate {
+  float: right;
+  color: red;
+  font-weight: bold;
+  text-decoration: none;
+}
