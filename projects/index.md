@@ -17,6 +17,8 @@ title: Projects
 - [Easter Date Calculator]({{"/tools/datefinder/easter"|relative_url}})
 - [Good Friday Date Calculator]({{"/tools/datefinder/goodfriday"|relative_url}})
 
+## Development Tools
+- [Online C/C++ Header Generator](https://x.dorper.me/mkheaders.php)
 ## Operating Systems
 - [XtOS](xtos)
 - [DOOPS](doops)
