@@ -10,5 +10,7 @@ title: DogeBoot
 	</a>
 </div>
 <p>
-	DogeBoot is a 512-byte realmode bootsector demo featuring <a href="https://en.wikipedia.org/wiki/Doge_(meme)">Doge</a>.
+	DogeBoot is a 512-byte real mode bootsector demo featuring <a href="https://en.wikipedia.org/wiki/Doge_(meme)">Doge</a>.
+	It renders a stale doge meme on a 40x25 (mode 00h) screen. It is impressive because without compression, it would take 1000 bytes
+	to store the meme. However, using a basic compression algorithm, I was able to fit the meme in under 510 bytes.
 </p>
