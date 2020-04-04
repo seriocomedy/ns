@@ -3,13 +3,12 @@ title: Projects
 ---
 <h1 class="page-title">Projects</h1>
 [Audio](#audio) &bull; [Clients](#clients) &bull; [Communication](#communication) &bull; [Date Finders](#date-finders)
-&bull; [Development Tools](#development-tools) &bull [Operating Systems](#operating-systems) &bull; [Web](#web)
+&bull; [Development Tools](#development-tools) &bull; [Operating Systems](#operating-systems) &bull; [Web](#web)
 
 ## Audio
 <dl>
 <dt>[TosHymnPlayer](toshymnplayer)</dt>
 <dd>Plays TempleOS hymn files in the browser.</dd>
-<dd>
 </dl>
 
 ## Clients
@@ -46,6 +45,8 @@ title: Projects
 <dd>Multitasking, graphical operating system for x86 computers.</dd>
 <dt>[DOOPS](doops)</dt>
 <dd>Dorper Object Oriented Programming System. Object Oriented Research OS.</dd>
+<dt>[Rougetel](rougetel)</dt>
+<dd>Bare-metal rougelike for x86 computers written in Assembly and C.</dd>
 <dt>[DogeBoot](dogeboot)</dt>
 <dd>Stale meme.</dd>
 </dl>
