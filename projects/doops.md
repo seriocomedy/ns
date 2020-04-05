@@ -2,7 +2,7 @@
 title: DOOPS
 ---
 <h1 class="page-title">DOOPS</h1>
-<a href="https://git.sr.ht/~pch/doops" title="Source Code">Source Code</a> &bull; <a href="https://todo.sr.ht/~pch/doops" title="Bug Tracker">Bug Tracker</a>
+<a href="https://git.sr.ht/~pch/doops" title="Source Code">Source Code</a> &bull; <a href="https://todo.sr.ht/~pch/doops" title="Bug Tracker">Bug Tracker</a><br>
 <img src="{{"media/img/classthing.png"|relative_url}}" alt="Carver: *slaps roof of doops* this bad boy can fit so many children in it">
 
 <p>
