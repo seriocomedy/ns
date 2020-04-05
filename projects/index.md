@@ -7,79 +7,54 @@ title: Projects
 
 ## Audio
 <dl>
-<dt>
-[TosHymnPlayer](toshymnplayer)
-</dt>
+<dt><a href="toshymnplayer">TosHymnPlayer</a></dt>
 <dd>Plays TempleOS hymn files in the browser.</dd>
 </dl>
 
 ## Clients
 <dl>
-<dt>[LiteTube](litetube)
-</dt>
-<dd>**The** lightweight YouTube client.</dd>
+<dt><a href="litetube">LiteTube</a></dt>
+<dd><b>The</b> lightweight YouTube client.</dd>
 </dl>
 
 ## Communication
 <dl>
-<dt>
-[Dch](dch)
-</dt>
+<dt><a href="dch">Dch</a></dt>
 <dd>Comment System/Imageboard written in Python.</dd>
-<dt>
-[Dorper Forum](https://forum.dorper.me)
-</dt>
+<dt><a href="https://forum.dorper.me">Dorper Forum</a></dt>
 <dd>Official forum for Dorper.</dd>
 </dl>
 
 ## Date Finders
 <dl>
-<dt>
-[Easter Date Calculator]({{"/tools/datefinder/easter"|relative_url}})
-</dt>
+<dt><a href="{{"/tools/datefinder/easter"|relative_url}}">Easter Date Calculator</a></dt>
 <dd>Find what day Easter falls on for any year.</dd>
-<dt>
-[Good Friday Date Calculator]({{"/tools/datefinder/goodfriday"|relative_url}})
-</dt>
+<dt><a href="{{"/tools/datefinder/goodfriday"|relative_url}}">Good Friday Date Calculator</a></dt>
 <dd>Find why day Good Friday falls on for any year.</dd>
 </dl>
 
 ## Development Tools
 <dl>
-<dt>
-[Online C/C++ Header Generator](https://x.dorper.me/mkheaders.php)
-</dt>
+<dt><a href="https://x.dorper.me/mkheaders.php">Online C/C++ Header Generator</a></dt>
 <dd>Never write C headers again! Generate C/C++ headers from source code.</dd>
 </dl>
 
 ## Operating Systems
 <dl>
-<dt>
-[XtOS](xtos)
-</dt>
+<dt><a href="xtos">XtOS</a></dt>
 <dd>Multitasking, graphical operating system for x86 computers.</dd>
-<dt>
-[DOOPS](doops)
-</dt>
+<dt><a href="doops">DOOPS</a></dt>
 <dd>Dorper Object Oriented Programming System. Object Oriented Research OS.</dd>
-<dt>
-[Rougetel](rougetel)
-</dt>
+<dt><a href="rougetel">Rougetel</a></dt>
 <dd>Bare-metal rougelike for x86 computers written in Assembly and C.</dd>
-<dt>
-[DogeBoot](dogeboot)
-</dt>
+<dt><a href="dogeboot">DogeBoot</a></dt>
 <dd>Stale meme.</dd>
 </dl>
 
 ## Web
 <dl>
-<dt>
-[DorpWiki](dorpwiki)
-</dt>
+<dt><a href="dorpwiki">DorpWiki</a></dt>
 <dd>Lightweight PHP wiki software.</dd>
-<dt>
-[Mirror](https://mirror.dorper.me)
-</dt>
+<dt><a href="https://mirror.dorper.me">Mirror</a></dt>
 <dd>Dorper Mirror. Official mirror of [DawnOS](http://gerigeri.uw.hu/DawnOS/).</dd>
 </dl>

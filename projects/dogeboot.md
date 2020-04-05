@@ -5,8 +5,8 @@ title: DogeBoot
 <a href="https://mirror.dorper.me/dogeboot/dogeboot.asm" target="_blank">Source Code (ASM)</a> &bull; 
 <a href="https://mirror.dorper.me/dogeboot/dogeboot.bin" target="_blank">Bootsector (BIN)</a>
 <div>
-	<a href="/media/img/dogeboot.png" target="_blank">
-	   <img src="/media/img/dogeboot.png" alt="DogeBoot">
+	<a href="{{"/media/img/dogeboot.png"|relative_url}}" target="_blank">
+	   <img src="{{"/media/img/dogeboot.png"|relative_url}}" alt="DogeBoot">
 	</a>
 </div>
 <p>

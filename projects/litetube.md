@@ -20,17 +20,17 @@ LiteTube is a lightweight YouTube client.
 
 ## Screenshots
 <div class="screenshots">
-  <a href="{{"/media/img/litetube/screenshot1.png"|relative_url}}" title="Home Page">
-    <img src="{{"/media/img/litetube/screenshot1.png"|relative_url}}" alt="Home Page" height="300" width="300">
-  </a>
-  <a href="{{"/media/img/litetube/screenshot2.png"|relative_url}}" title="Channel">
-    <img src="{{"/media/img/litetube/screenshot2.png"|relative_url}}" alt="Channel" height="300" width="300">
-  </a>
-  <a href="{{"/media/img/litetube/screenshot3.png"|relative_url}}" title="Video">
-    <img src="{{"/media/img/litetube/screenshot3.png"|relative_url}}" alt="Video" height="300" width="300">
-  </a>
+	<a href="{{"/media/img/litetube/screenshot1.png"|relative_url}}" title="Home Page">
+		<img src="{{"/media/img/litetube/screenshot1.png"|relative_url}}" alt="Home Page" height="300" width="300">
+	</a>
+	<a href="{{"/media/img/litetube/screenshot2.png"|relative_url}}" title="Channel">
+		<img src="{{"/media/img/litetube/screenshot2.png"|relative_url}}" alt="Channel" height="300" width="300">
+	</a>
+	<a href="{{"/media/img/litetube/screenshot3.png"|relative_url}}" title="Video">
+		<img src="{{"/media/img/litetube/screenshot3.png"|relative_url}}" alt="Video" height="300" width="300">
+	</a>
 </div>
 
-<link rel="stylesheet" href="../../assets/css/lightbox.css">
+<link rel="stylesheet" href="{{"/assets/css/lightbox.css"|relative_url}}">
 <script src="{{"/assets/js/lightbox.js"|relative_url}}"></script>
 <script>new SimpleLightbox({elements: '.screenshots a'});</script>
