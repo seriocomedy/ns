@@ -5,19 +5,19 @@
 ## Screenshots
 
 <div class="screenshots">
-	<a href="{{"/media/img/litetube/alpha1.png"|relative_url}}" title="Alpha 1 Screenshot">
+	<a href="{{"/media/img/rougetel/alpha1.png"|relative_url}}" title="Alpha 1 Screenshot">
 		<img src="{{"/media/img/rougetel/alpha1.png"|relative_url}}" alt="Alpha 1 Screenshot" id="alpha1" height="300" width="300">
 	</a>
-	<a href="{{"/media/img/litetube/exp4.png"|relative_url}}" title="Experimental 4 Screenshot">
+	<a href="{{"/media/img/rougetel/exp4.png"|relative_url}}" title="Experimental 4 Screenshot">
 		<img src="{{"/media/img/rougetel/exp4.png"|relative_url}}" alt="Experimental 4 Screenshot" id="exp4" height="300" width="300">
 	</a>
-	<a href="{{"/media/img/litetube/exp3.png"|relative_url}}" title="Experimental 3 Screenshot">
+	<a href="{{"/media/img/rougetel/exp3.png"|relative_url}}" title="Experimental 3 Screenshot">
 		<img src="{{"/media/img/rougetel/exp3.png"|relative_url}}" alt="Experimental 3 Screenshot" id="exp3" height="300" width="300">
 	</a>
-	<a href="{{"/media/img/litetube/exp2.png"|relative_url}}" title="Experimental 2 Screenshot">
+	<a href="{{"/media/img/rougetel/exp2.png"|relative_url}}" title="Experimental 2 Screenshot">
 		<img src="{{"/media/img/rougetel/exp2.png"|relative_url}}" alt="Experimental 2 Screenshot" id="exp2" height="300" width="300">
 	</a>
-	<a href="{{"/media/img/litetube/test.png"|relative_url}}" title="Test Screenshot">
+	<a href="{{"/media/img/rougetel/test.png"|relative_url}}" title="Test Screenshot">
 		<img src="{{"/media/img/rougetel/test.png"|relative_url}}" alt="Test Screenshot" id="test" height="300" width="300">
 	</a>
 </div>
