@@ -1,8 +1,9 @@
 <h1 class="page-title">Routetel</h1>
-<img src="{{"/media/img/rougetel/alpha1.png" alt="Screenshot">
+<img src="{{"/media/img/rougetel/alpha1.png|relative_url}}" alt="Screenshot">
 <p><b>Rougetel</b> is a rougelike written for x86 computers.</p>
 
 ## Screenshots
+
 <div class="screenshots">
 	<a href="{{"/media/img/litetube/alpha1.png"|relative_url}}" title="Alpha 1 Screenshot">
 		<img src="{{"/media/img/rougetel/alpha1.png"|relative_url}}" alt="Alpha 1 Screenshot" id="alpha1" height="300" width="300">
