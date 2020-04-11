@@ -5,7 +5,7 @@ date: 2020-04-04
 I have updated the Dorper website and Dorper services.
 
 ## Website
-- Added more [projects]({{"/projects"|relative_url}}) and fixed dead links.
+- Added more [projects](/projects) and fixed dead links.
 
 ## LiteTube
 - Captions work now.

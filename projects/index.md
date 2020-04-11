@@ -27,9 +27,9 @@ title: Projects
 
 ## Date Finders
 <dl>
-<dt><a href="{{"/tools/datefinder/easter"|relative_url}}">Easter Date Calculator</a></dt>
+<dt><a href="/tools/datefinder/easter">Easter Date Calculator</a></dt>
 <dd>Find what day Easter falls on for any year.</dd>
-<dt><a href="{{"/tools/datefinder/goodfriday"|relative_url}}">Good Friday Date Calculator</a></dt>
+<dt><a href="/tools/datefinder/goodfriday">Good Friday Date Calculator</a></dt>
 <dd>Find why day Good Friday falls on for any year.</dd>
 </dl>
 
