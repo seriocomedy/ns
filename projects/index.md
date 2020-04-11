@@ -56,5 +56,5 @@ title: Projects
 <dt><a href="dorpwiki">DorpWiki</a></dt>
 <dd>Lightweight PHP wiki software.</dd>
 <dt><a href="https://mirror.dorper.me">Mirror</a></dt>
-<dd>Dorper Mirror. Official mirror of [DawnOS](http://gerigeri.uw.hu/DawnOS/).</dd>
+<dd>Dorper Mirror. Official mirror of <a href="http://gerigeri.uw.hu/DawnOS/">DawnOS</a>.</dd>
 </dl>
