@@ -3,7 +3,7 @@ title: Projects
 ---
 <h1 class="page-title">Projects</h1>
 [Audio](#audio) &bull; [Clients](#clients) &bull; [Communication](#communication) &bull; [Date Finders](#date-finders)
-&bull; [Development Tools](#development-tools) &bull; [Operating Systems](#operating-systems) &bull; [Web](#web)
+&bull; [Development Tools](#development-tools) &bull; [Miscellaneous](#miscellaneous) &bull; [Operating Systems](#operating-systems) &bull; [Tables](#tables) &bull; [Web](#web)
 
 ## Audio
 <dl>
@@ -39,6 +39,12 @@ title: Projects
 <dd>Never write C headers again! Generate C/C++ headers from source code.</dd>
 </dl>
 
+## Miscellaneous
+<dl>
+<dt><a href="pncgi">CGI Perlin Noise Generator</a></dt>
+<dd>Generates Perlin Noise to a colored HTML table using Python.</dd>
+</dl>
+
 ## Operating Systems
 <dl>
 <dt><a href="xtos">XtOS</a></dt>
@@ -49,6 +55,14 @@ title: Projects
 <dd>Bare-metal rougelike for x86 computers written in Assembly and C.</dd>
 <dt><a href="dogeboot">DogeBoot</a></dt>
 <dd>Stale meme.</dd>
+</dl>
+
+## Tables
+<dl>
+<dt><a href="https://x.dorper.me/cgi-bin/ascii.py">ASCII Table</a></dt>
+<dt>CGI generated ASCII Table.</a></dt>
+<dt><a href="https://x.dorper.me/cgi-bin/utf-table.py">Unicode Table</a></dt>
+<dt>Shows every single Unicode character. Warning: very slow and memory hungry.</dt>
 </dl>
 
 ## Web
