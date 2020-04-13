@@ -1,7 +1,7 @@
 ---
 title: LiteTube
 ---
-# LiteTube
+<h1 class="page-title">LiteTube</h1>
 [Visit LiteTube](https://yt.dorper.me) &bull; [Changelog](https://yt.dorper.me/changelog.txt)
 
 LiteTube is a lightweight YouTube client.

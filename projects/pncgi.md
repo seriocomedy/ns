@@ -2,6 +2,7 @@
 title: CGI Perlin Noise
 ---
 <h1 class="page-title">CGI Perlin Noise Generator</h1>
+[Interesting Sample](https://x.dorper.me/cgi-bin/pncgi.py?x=100&y=100&o=100&s=333)
 
 I made this perlin noise generator back in 2015. It is not very good and generates to a HTML table instead to an image.
 The code is really poorly written and I can't be bothered to fix any more bugs in it.
