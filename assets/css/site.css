@@ -76,10 +76,14 @@ pre {
 	text-align: center;
 }
 
+.post-header {
+	margin: 10px;
+}
+
 .post-title {
 	margin-bottom: 4px;
 }
 
 .post-date {
-	color: #777;
+	font-size: small;
 }
