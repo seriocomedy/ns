@@ -60,9 +60,9 @@ title: Projects
 ## Tables
 <dl>
 <dt><a href="https://x.dorper.me/cgi-bin/ascii.py">ASCII Table</a></dt>
-<dt>CGI generated ASCII Table.</a></dt>
+<dd>CGI generated ASCII Table.</dd>
 <dt><a href="https://x.dorper.me/cgi-bin/utf-table.py">Unicode Table</a></dt>
-<dt>Shows every single Unicode character. Warning: very slow and memory hungry.</dt>
+<dd>Shows every single Unicode character. Warning: very slow and memory hungry.</dd>
 </dl>
 
 ## Web
