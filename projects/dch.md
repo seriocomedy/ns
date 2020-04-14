@@ -24,11 +24,11 @@ title: Dch
 
 ## Screenshots
 <div class="screenshots">
-	{% include lbitem src="dch/tform.png" title="Thread Form" size="300" %}
-	{% include lbitem src="dch/thread.png" title="Thread" size="300" %}
+	{% include lbitem.html src="dch/tform.png" title="Thread Form" size="300" %}
+	{% include lbitem.html src="dch/thread.png" title="Thread" size="300" %}
 </div>
 
-{% include lightbox el=".screenshots a" %}
+{% include lightbox.html el=".screenshots a" %}
 
 ## Embedding Dch
 <p>
