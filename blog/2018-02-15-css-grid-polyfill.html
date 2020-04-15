@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="UTF-8">
+		<title>CSS Grid Polyfill</title>
+		<meta name="author" content="Dorper">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="generator" content="l.py">
+		<link rel="stylesheet" href="/assets/css/site.css">
+	</head>
+	<body>
+		<a name="top"></a>
+		<div class="site-wrapper">
+			<header class="site-header">
+				<h1 class="site-logo">
+					<a href="/">Dorper</a>
+				</h1>
+			</header>
+			<nav class="site-navigation">
+				<a href="/">Home</a>
+				<a href="/projects">Projects</a>
+				<a href="/blog">Blog</a>
+				<a href="https://now.dorper.me">DorperNOW</a>
+				<a href="/about">About</a>
+				<a href="https://ko-fi.com/dorper">Donate</a>
+			</nav>
+			<main class="site-content" id="content">
+				
+<header class="post-header">
+	<h1 class="page-title post-title">CSS Grid Polyfill</h1>
+	<div class="post-date">Posted on 2018-02-15.</div>
+</header>
+
+<div class="post-content">
+	<table id="layout">
+    <tbody>
+        <tr>
+            <td colspan="2" id="header"><h1>Dank Site</h1></td>
+        </tr>
+        <tr>
+            <td id="aside" width="15%">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Memes</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </td>
+            <td id="main">
+                <h1>Home</h1>
+                <p>Ok, this site is epic.</p>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" id="footer"><p>&copy; 2018 Carver Harrison - Original Character Do Not Steal</p></td>
+        </tr>
+    </tbody>
+</table>
+
+<p>grid-template-areas:
+    'header header header header header header header header'
+    'aside main main main main main main main'
+    'footer footer footer footer footer footer footer footer';<h1>CSS Grid Polyfill</h1>
+<div>Recently, a new feature in CSS called <em>CSS Grids</em> has been released. However many browsers don't support this new feature. For this reason I have created a Polyfill for CSS Grids that uses <strong>no Javascript</strong>.</div>
+<div>Take a site using this CSS:</div>
+%highlightfile '/www/werc/sites/dorper.me/news/2018/02/15/css-grid-polyfill/ex.css' css
+<div>It can be rewritten using this HTML</div>
+%highlightfile '/www/werc/sites/dorper.me/news/2018/02/15/css-grid-polyfill/example.html' html
+<div>This works on
+<strong>all</strong>
+browsers.</div>
+<div><em>NOTE: The author does not condone the use of <code>&lt;table&gt;</code> for layout.</em></div></div></p>
+</div>
+
+			</main>
+			<footer class="site-footer">
+				<p class="copyright">Copyright &copy; 2014-2020 Dorper</p>
+			</footer>
+		</div>
+	</body>
+</html>

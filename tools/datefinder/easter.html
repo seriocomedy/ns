@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title>Easter Date Calculator</title>
+		<meta name="author" content="Dorper">
+		<meta name="description" content="Calculate the Date of Easter Sunday for any year.">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://dorper.me/assets/css/projuniv.css">
+		<style>
+			#text {
+				margin: 10px;
+				margin-top: 16px;
+				font-size: 48pt;
+			}
+			
+			#text input {
+				font-size: 48pt;
+				border: 0;
+				border-bottom: 1px solid black;
+			}
+			
+			#year {
+				width: 4em;
+				text-align: center;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="topbar">
+			<div class="col4">
+				<a href="https://dorper.me" id="dorperlogo">Dorper</a>
+			</div>
+			<div class="col2">
+				<div id="title">Easter Date Calculator</div>
+			</div>
+			<div class="col4">
+				<a href="https://ko-fi.com/dorper" id="donate">Donate</a>
+			</div>
+		</div>
+		<div id="text">
+			In <input
+				type="number" pattern="\d*" maxlength="4" size="4" value="2020"
+				onclick="javascript: this.select()"
+				id="year">, Easter <span id="was">was</span> on <span id="month">April</span> <span id="day">12th</span>.
+		</div>
+		<script>
+			function nth(d) {
+				if (d > 3 && d < 21) return 'th';
+				switch (d % 10) {
+					case 1:  return "st";
+					case 2:  return "nd";
+					case 3:  return "rd";
+					default: return "th";
+				}
+			}
+			
+			function getEaster(y) // Takes a given year (y) then returns Date object of Easter Sunday
+			{ 
+				/*
+					Easter Date Function for JavaScript implemented by Furgelnod ( https://furgelnod.com )
+					Using algorithm published at The Date of Easter (on aa.usno.navy.mil, Oct 2007) 
+					(https://web.archive.org/web/20071015045929/http://aa.usno.navy.mil/faq/docs/easter.php)
+					The algorithm is credited to J.-M. Oudin (1940) and is reprinted in the 
+					Explanatory Supplement to the Astronomical Almanac, ed. P. K. Seidelmann (1992). 
+					See Chapter 12, "Calendars", by L. E. Doggett.
+				*/
+				try {
+					y = Number( y );
+					if ( y != y ) { 
+						throw new TypeError( "Value must be a number." );
+					}
+					else if ( y > 275760 || y < -271820 ) {
+						throw new RangeError( "Value be between -271820 and 275760 due to technical limitations of Date constructor." );
+					}
+				}
+				catch ( e ) { console.error( e ); }
+			 
+				y = Math.floor( y );
+				var c = Math.floor( y / 100 );
+				var n = y - 19 * Math.floor( y / 19 );
+				var k = Math.floor( ( c - 17 ) / 25 );
+				var i = c - Math.floor( c / 4 ) - Math.floor( ( c - k ) / 3 ) + 19 * n + 15;
+				i = i - 30 * Math.floor( i / 30 );
+				i = i - Math.floor( i / 28 ) * ( 1 - Math.floor( i / 28 ) * Math.floor( 29 / ( i + 1 ) ) * Math.floor( ( 21 - n ) / 11 ) );
+				var j = y + Math.floor( y / 4 ) + i + 2 - c + Math.floor( c / 4 );
+				j = j - 7 * Math.floor( j / 7 );
+				var l = i - j;
+				var m = 3 + Math.floor( ( l + 40 ) / 44 );
+				var d = l + 28 - 31 * Math.floor( m / 4 );
+				return [m,d];
+			} // -- easterDate
+
+			function update(t) {
+				if (t.value.length > t.maxLength)
+					t.value = t.value.slice(0, t.maxLength);
+				
+				var e = getEaster(t.value);
+				var month = e[0];
+				var day = e[1];
+				
+				document.getElementById("day").innerText = day+nth(day);
+				document.getElementById("month").innerText = month==3?"March":"April";
+				document.getElementById("was").innerText = Date.parse(String(t.value).padStart(4, '0')+"-"+String(month).padStart(2, '0')+"-"+String(day).padStart(2, '0'))<Date.now()?"was":"will be";
+			}
+			
+			var ye = document.getElementById("year");
+			
+			ye.value = new Date().getFullYear();
+			
+			ye.addEventListener("input", function() {
+				update(this);
+			});
+			
+			update(ye);
+		</script>
+	</body>
+</html>

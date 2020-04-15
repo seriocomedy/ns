@@ -1,0 +1,93 @@
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
+body {
+	background: #eef;
+	font-family: sans-serif;
+	font-size: 12pt;
+	margin: 32px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: sans-serif;
+}
+
+li {
+	line-height: 1.5em;
+}
+
+pre {
+	overflow: auto;
+}
+
+.site-wrapper {
+}
+
+.site-header {
+	font-family: sans-serif;
+	border: 0;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	background: linear-gradient(to bottom, #7abcff 0%,#60abf8 44%,#4096ee 100%);
+	padding: 1em;
+}
+
+.site-logo {
+	font-size: 3em;
+	font-style: italic;
+	margin: 0;
+}
+
+.site-logo a {
+	color: white;
+	text-decoration: none;
+}
+
+.site-content {
+	background: #fff;
+	padding: 1em;
+}
+
+.site-navigation {
+	font-family: sans-serif;
+	background: darkblue;
+}
+
+.site-navigation a {
+	display: inline-block;
+	color: #fff;
+	font-weight: bold;
+	text-decoration: none;
+	margin: 0.25em 1.25em;
+}
+
+.site-footer {
+	font-family: sans-serif;
+	border: 0;
+	padding: 0.5em;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+	background: linear-gradient(to top, #7abcff 0%,#60abf8 44%,#4096ee 100%);
+}
+
+.copyright {
+	font-size: small;
+	text-align: center;
+}
+
+.post-header {
+	margin-bottom: 10px;
+}
+
+.post-title {
+	margin-bottom: 4px;
+}
+
+.post-date {
+	font-size: small;
+}
+
+.underline {
+	text-decoration: underline;
+}

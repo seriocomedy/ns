@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="UTF-8">
+		<title>XtOS - Dorper</title>
+		<meta name="author" content="Dorper">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="generator" content="l.py">
+		<link rel="stylesheet" href="/assets/css/site.css">
+	</head>
+	<body>
+		<a name="top"></a>
+		<div class="site-wrapper">
+			<header class="site-header">
+				<h1 class="site-logo">
+					<a href="/">Dorper</a>
+				</h1>
+			</header>
+			<nav class="site-navigation">
+				<a href="/">Home</a>
+				<a href="/projects">Projects</a>
+				<a href="/blog">Blog</a>
+				<a href="https://now.dorper.me">DorperNOW</a>
+				<a href="/about">About</a>
+				<a href="https://ko-fi.com/dorper">Donate</a>
+			</nav>
+			<main class="site-content" id="content">
+				<h1 class="page-title">XtOS</h1>
+
+<p class="page-desc">The Xt Operating System</p>
+
+<p>XtOS is an operating system written in C and Assembly.</p>
+<h2>Minimum Requirements</h2>
+<ul>
+<li>CPU: Intel i386</li>
+<li>RAM: 2MB</li>
+<li>GPU: Any VGA Card</li>
+<li>HDD: 3½ floppy drive or IDE hard disk with at least 300KB free space</li>
+<li>I/O: IBM PC compatible I/O</li>
+</ul>
+<h2>Tested Hardware</h2>
+<h3>HP t5145</h3>
+<p>This is the system that XtOS is developed on so it should work fine with XtOS.
+- CPU: VIA Eden @ 500Mhz
+- RAM: 512MB DDR2
+- Chipset: VIA VX800
+- I/O: VIA VT1211 Super I/O
+- GPU: VIAChrome9 HC3
+- HDD: 128MB IDE Flash Module
+- BootOS: FreeDOS 1.2</p>
+<h2>Running XtOS</h2>
+<h3>In QEMU</h3>
+<ol>
+<li>Download <a href="https://mirror.dorper.me/xtos/xtos.img">xtos.img</a>.</li>
+<li>Install <a href="https://www.qemu.org">QEMU</a>.</li>
+<li>Run <code>qemu-system-i386 -fda xtos.img -m 64M</code></li>
+</ol>
+<h3>On Real Hardware</h3>
+<ol>
+<li>Download <a href="https://mirror.dorper.me/xtos/xtos.img">xtos.img</a>.</li>
+<li>Write <code>xtos.img</code> to a blank 1.44MB 3½ floppy disk using one of the following tools:<ul>
+<li>Windows: <a href="http://freeextractor.sourceforge.net/diskwrite/">DiskWrite</a></li>
+<li>Linux: <code>dd</code></li>
+</ul>
+</li>
+<li>Insert the floppy disk into a computer and boot.</li>
+</ol>
+<h2>Design</h2>
+<h3>Development</h3>
+<p>XtOS is developed using <a href="https://nasm.us">NASM</a> and <a href="http://www.openwatcom.org">OpenWatcom</a> on a HP t5145 running <a href="https://freedos.org">FreeDOS 1.2</a>.
+Code is edited using <a href="https://itconnect.uw.edu/connect/web-publishing/shared-hosting/using-piconano/">UW Pico</a>.
+Debugging for <code>LOADER.COM</code> and <code>STAGE2.BIN</code> is provided by the Watcom Debugger. No debugger is available for <code>KERNEL.386</code>.</p>
+<h3>Boot</h3>
+<h4>Stage 0: FreeDOS</h4>
+<p>XtOS Boots from FreeDOS, a open source clone of DOS.
+The FreeDOS kernel is loaded into HIGH memory to leave space for Stage 2.</p>
+<h4>Stage 1: LOADER.COM</h4>
+<p><code>LOADER.COM</code> is the loader for both <code>STAGE2.BIN</code> and <code>KERNEL.386</code>.
+It uses INT 21h services to read both files into memory. <code>STAGE2.BIN</code> is loaded somewhere in the first 64K of memory.
+<code>KERNEL.386</code> is loaded at <code>0x30000</code>. After both files are loaded successfully, <code>LOADER.COM</code> jumps to <code>STAGE2.BIN</code>.</p>
+<h4>Stage 2: STAGE2.BIN</h4>
+<p><code>STAGE2.BIN</code> disables interrupts, loads the initial GDT, switches to protected mode, and jumps to <code>KERNEL.386</code> in under 100 bytes.</p>
+<h4>Stage 3: KERNEL.386</h4>
+<p><code>KERNEL.386</code> is the XtOS protected mode kernel. On startup, it loads its own GDT, IDT, and enables interrupts.</p>
+			</main>
+			<footer class="site-footer">
+				<p class="copyright">Copyright &copy; 2014-2020 Dorper</p>
+			</footer>
+		</div>
+	</body>
+</html>

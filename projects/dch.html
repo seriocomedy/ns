@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="UTF-8">
+		<title>Dch - Dorper</title>
+		<meta name="author" content="Dorper">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="generator" content="l.py">
+		<link rel="stylesheet" href="/assets/css/site.css">
+	</head>
+	<body>
+		<a name="top"></a>
+		<div class="site-wrapper">
+			<header class="site-header">
+				<h1 class="site-logo">
+					<a href="/">Dorper</a>
+				</h1>
+			</header>
+			<nav class="site-navigation">
+				<a href="/">Home</a>
+				<a href="/projects">Projects</a>
+				<a href="/blog">Blog</a>
+				<a href="https://now.dorper.me">DorperNOW</a>
+				<a href="/about">About</a>
+				<a href="https://ko-fi.com/dorper">Donate</a>
+			</nav>
+			<main class="site-content" id="content">
+				<h1 class="page-title">Dch</h1>
+
+<p><a href="https://c.d0.cx/a?ref=dorper" target="_blank">Visit Dch</a>
+<p>
+    Dch is a imageboard and comment system. It is written in Python.
+</p></p>
+<h2>Features</h2>
+<ul>
+<li>File uploading (PNG / JPG)</li>
+<li>Subject lines</li>
+<li>Passwords for post deletion</li>
+<li>Thread tagging which is very useful if you want to use Dch as a comment section.</li>
+<li>Country flags</li>
+<li><a href="#advanced-formatting">Advanced text formatting</a></li>
+<li><span style="color:#789922">&gt;greentext</span></li>
+<li>Post Links: <a href="https://c.d0.cx/t/1#1" style="color:#D00">&gt;&gt;1</a><br></li>
+<li>Capcodes: <span style="color:#FF0000"><b>Carver</b> ★ Admin</span></li>
+<li>Tripcodes: <span style="color:#117743"><b>Anonymous</b>!bfAJ1WM0</span></li>
+<li>Options:<ul>
+<li>noflag: hides your country's flag.</li>
+<li>thread: brings you back to the thread that you were replying to.</li>
+</ul>
+</li>
+</ul>
+<h2>Screenshots</h2>
+<p><div class="screenshots">
+    <a href="/media/img/dch/tform.png" title="Thread Form"><img src="/media/img/dch/tform.png" alt="Thread Form" height="300" width="300"></a>
+    <a href="/media/img/dch/thread.png" title="Example Thread"><img src="/media/img/dch/thread.png" alt="Example Thread" height="300" width="300"></a>
+</div></p>
+<p><link rel="stylesheet" href="/assets/css/lightbox.css">
+    <script src="/assets/js/lightbox.js"></script>
+    <script>new SimpleLightbox({elements: ".screenshots a"});</script></p>
+<h2>Embedding Dch</h2>
+<p><p>
+    Using Dch as the comment system for your site is very simple. Just insert this code and replace <code>PAGE_URL</code> with a unique page id (allowed characters: A-z, 1-9, _).
+</p>
+<pre>
+    <code class="html">
+&lt;iframe id="commentsiframe" src="https://c.d0.cx/e/PAGE_URL?noedittag=1" frameborder="0" width="100%" height="500px"&gt;&lt;/iframe&gt;
+    </code>
+</pre></p>
+<h2>Formatting</h2>
+<h3>Advanced Formatting</h3>
+<p><table>
+    <thead>
+        <th>Command</th>
+        <th>Description</th>
+    </thead>
+    <tbody>
+        <tr><td>@@bold on@@</td><td>Enables bold text.</td></tr>
+        <tr><td>@@bold off@@</td><td>Disables bold text.</td></tr>
+        <tr><td>@@italic on@@</td><td>Enables italic text.</td></tr>
+        <tr><td>@@italic off@@</td><td>Disables italic text.</td></tr>
+    </tbody>
+</table></p>
+<h3>Example</h3>
+<p><table>
+    <thead>
+        <th>Input</th>
+        <th>Output</th>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+<pre>
+&gt;greentext should be used to quote
+See this post:
+&gt;&gt;1
+This text is normal.
+@@bold on@@
+This text is bold.
+@@italic on@@
+This text is both bold and italic.
+@@italic off@@
+@@bold off@@
+</pre>
+            </td>
+            <td>
+                <span style="color:#789922">&gt;greentext should be used to quote</span><br>
+                See this post:<br>
+                <a href="https://c.d0.cx/t/1#1" style="color:#D00">&gt;&gt;1</a><br>
+                This text is normal.<br>
+                <b>This text is bold.<br>
+                <i>This text is both bold and italic.<br></i></b>
+            </td>
+        </tr>
+    </tbody>
+</table></p>
+			</main>
+			<footer class="site-footer">
+				<p class="copyright">Copyright &copy; 2014-2020 Dorper</p>
+			</footer>
+		</div>
+	</body>
+</html>

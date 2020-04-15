@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="UTF-8">
+		<title>LiteTube Redesign - Dorper</title>
+		<meta name="author" content="Dorper">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="generator" content="l.py">
+		<link rel="stylesheet" href="/assets/css/site.css">
+	</head>
+	<body>
+		<a name="top"></a>
+		<div class="site-wrapper">
+			<header class="site-header">
+				<h1 class="site-logo">
+					<a href="/">Dorper</a>
+				</h1>
+			</header>
+			<nav class="site-navigation">
+				<a href="/">Home</a>
+				<a href="/projects">Projects</a>
+				<a href="/blog">Blog</a>
+				<a href="https://now.dorper.me">DorperNOW</a>
+				<a href="/about">About</a>
+				<a href="https://ko-fi.com/dorper">Donate</a>
+			</nav>
+			<main class="site-content" id="content">
+				
+<header class="post-header">
+	<h1 class="page-title post-title">LiteTube Redesign</h1>
+	<div class="post-date">Posted on 2018-10-13.</div>
+</header>
+
+<div class="post-content">
+	<p><img src="litetube.png" alt="LiteTube Screenshot">
+<p>
+I have redesigned <a href="https://yt.dorper.me">LiteTube</a> to be more modern, responsive and usable. I replaced the custom CSS with UIKit 3 and have also cut down on the number of client-side dependencies. VideoJS has been completely removed because it kept breaking.
+Search is now displayed as a list of cards and video descriptions now support links. Channels and playlists are not implemented yet because neither youtube-dl or youtube-node support fast channel and playlist listing (youtube-dl takes over 25 seconds to list the videos from a small channel).
+The source code has also been moved back to <a href="https://launchpad.net/dorptube">Launchpad</a>.</p>
+</div>
+
+			</main>
+			<footer class="site-footer">
+				<p class="copyright">Copyright &copy; 2014-2020 Dorper</p>
+			</footer>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="UTF-8">
+		<title>Solving the issue of website bloat</title>
+		<meta name="author" content="Dorper">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="generator" content="l.py">
+		<link rel="stylesheet" href="/assets/css/site.css">
+	</head>
+	<body>
+		<a name="top"></a>
+		<div class="site-wrapper">
+			<header class="site-header">
+				<h1 class="site-logo">
+					<a href="/">Dorper</a>
+				</h1>
+			</header>
+			<nav class="site-navigation">
+				<a href="/">Home</a>
+				<a href="/projects">Projects</a>
+				<a href="/blog">Blog</a>
+				<a href="https://now.dorper.me">DorperNOW</a>
+				<a href="/about">About</a>
+				<a href="https://ko-fi.com/dorper">Donate</a>
+			</nav>
+			<main class="site-content" id="content">
+				
+<header class="post-header">
+	<h1 class="page-title post-title">Solving the issue of website bloat</h1>
+	<div class="post-date">Posted on 2017-12-15.</div>
+</header>
+
+<div class="post-content">
+	<p>HTML, CSS and Javascript bloat is getting out of hand. Website bloat slows down your site, makes users annoyed and costs money. These are ways that you can remove bloat from your website</p>
+<h2>Minification</h2>
+<p>Javascript and CSS are a major offender when it comes to bloat. The good thing is that this is easy to fix. If you use any Javascript or CSS libraries (jQuery, Bootstrap, AngularJS, etc.), make sure to download the minified version which usually has <code>min</code> in the filename.</p>
+<h2>Debulk</h2>
+<p>If you don't have any Javascript code, then you don't need Javascript libraries. Removing any unneeded Javascript libraries from your page will speed up your webpage.</p>
+<h2>Customize</h2>
+<p>If you use a framework like Bootstrap, you are able to select what components you want. Instead of choosing everything, choose only the things you need. For example, if you use bootstrap just for the grid, then only include the grid or better yet, find a more lightweight stylesheet that does the same job better like <a href="http://flexboxgrid.com">Flexbox Grid</a>.</p>
+<h2>Leverage the Server</h2>
+<p>Don't have the client compile templates or retrieve data to put into a table when the server can do that much quicker and without the pain that comes with AJAX. If possible, have the server compile templates and insert components, otherwise, you are using Javascript as a glorified frameset.</p>
+</div>
+
+			</main>
+			<footer class="site-footer">
+				<p class="copyright">Copyright &copy; 2014-2020 Dorper</p>
+			</footer>
+		</div>
+	</body>
+</html>
